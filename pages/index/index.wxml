@@ -23,6 +23,7 @@
     <view class='foot'>
       <text class='foot_title'>购买月卡，与孩子畅读未来</text>
       <text class='foot_text'>借书全免费，每次可借两本，还书不限时</text>
+      <text>修改的地方</text>
     </view>
  </view>
  <view class='main'>
