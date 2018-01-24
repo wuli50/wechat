@@ -42,10 +42,10 @@ Page({
   },
   order:function(e){
     // console.log(this)
-    // console.log(e)
+    console.log(e);
     this.setData({
       ordercss: {
-        back: "red",
+        back: "#FE5A5A",
         textcolor:"#fff"
       },
       _index: e.target.dataset.index
