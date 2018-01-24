@@ -1,5 +1,6 @@
 //index.js
 //获取应用实例
+// 在这里做个注释看看
 const app = getApp()
 
 Page({
