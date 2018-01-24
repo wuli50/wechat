@@ -1,0 +1,140 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+.nav_shop{
+  font-weight: 600;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  height: 50rpx;
+}
+.nav_shop image{
+  height: 100%;
+}
+/*头部样式  */
+.header{
+  padding: 50rpx 30rpx 35rpx;
+  background-color: white;
+  box-sizing:border-box;
+  width: 100%;
+}
+.background{
+  position: relative;
+  color: white;
+}
+.background image{
+  border-radius:25rpx;
+  width: 100%;
+  box-shadow:0rpx 5rpx 10rpx #999;
+}
+.background .heard_title{
+  position: absolute;
+  top: 30rpx;
+  left: 40rpx;
+  font-size: 37rpx;
+  font-weight: 600;
+}
+.background .heard_text{
+  position: absolute;
+  top: 85rpx;
+  left: 40rpx;
+  font-size: 30rpx;
+}
+.background .heard_foot{
+  position: absolute;
+  bottom: 50rpx;
+  right: 80rpx;
+  font-size: 30rpx;
+}
+.header .foot{
+  text-align: center;
+}
+.header .foot .foot_title{
+  display: block;
+  font-weight: 600;
+  font-size: 40rpx;
+  margin-top: 20rpx;
+}
+.header .foot .foot_text{
+  font-size: 25rpx;
+  color: #999;
+}
+/*月卡详情*/
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15rpx 20rpx;
+}
+.main .card{
+  width: calc(50% - 85rpx);
+  margin: 15rpx 20rpx;
+  border-radius: 18rpx;
+  padding: 10rpx 20rpx;
+  background-color: white;
+  font-size: 30rpx;
+}
+.main .card .cardtitle{
+  display: flex;
+  justify-content: space-between;
+}
+.cardtitle .price{
+  font-size: 35rpx;
+  color: red;
+  font-weight: 600;
+}
+.cardtitle .old_price{
+  color:#999;
+  width: 40%;
+  font-size: 20rpx;
+  margin-top: 10rpx;
+}
+.cardtitle .sale{
+  font-size: 20rpx;
+  padding: 1rpx 5rpx;
+  border: 1px solid red;
+  color: red;
+  border-radius: 8rpx;
+  line-height: 20rpx;
+  margin-top: 15rpx;
+}
+.card .time{
+  color: #999;
+  font-size: 25rpx;
+}
+.cardactive{
+  border: 1rpx solid red;
+}
+.footer{
+  width:100%;
+  padding: 40rpx;
+  font-size: 25rpx;
+  text-align: center;
+  color: #999;
+}
+.play{
+  width: calc(100% - 80rpx);
+  margin: 0 40rpx;
+  margin-bottom: 30rpx;
+  border-radius: 20rpx;
+}
+.footer .foot_text{
+  margin-bottom: 40rpx;
+}

@@ -1,0 +1,46 @@
+<view class="select">
+  <view class='background'>
+    <image src='../../image/parent-book-bg.png' class="backgimg"></image>
+    <text class='head_title'>精选育儿好书 助你轻松养娃</text>
+    <text class='vip'>VIP会员专享</text>
+    <!--轮播： indicator-dots ： 指示点 autoplay:自动 interval:自动时间-->
+    <swiper indicator-dots="{{flase}}" autoplay="{{true}}" interval="2500" duration="2000" circular="{{true}}" class='header_swiper'>
+      <block wx:for="{{imgUrls}}">
+        <swiper-item class="swiper-box">
+          <view wx:for="{{imgUrls}}" class='img_box'>
+            <image src="{{item}}" class="slide-image" />
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!--内容-->
+  <view class='book_main'>
+    <view class='book' wx:for="{{bookList}}">
+      <image class='book_img' src='{{item.imgUrl}}'></image>
+      <view class='start' style='display:inline-block'>
+        <view class='bright' style='width:100rpx;height:30rpx;overflow: hidden;'>
+          <image src='../../image/star.png' style='width:125rpx;height:25rpx;' mode='widthFix'></image>
+        </view>
+        <view class='bright' style='width:25rpx;height:30rpx;overflow: hidden;margin-right: 15rpx'>
+          <image src='../../image/star-gray.png' style='width:125rpx;height:25rpx;' mode='widthFix'></image>
+        </view>
+      </view>
+      <text class='grade'>{{item.grade}}</text>
+      <text class='price'>{{item.price}}</text>
+      <button class='play'>{{item.title}}</button>
+    </view>
+  </view>
+  <!--底部-->
+  <view class='footer'>
+    <view class='icon kefu'>
+      <image src='../../image/icon-kefu.png' mode='widthFix' style='width:50rpx'></image>
+    </view>
+    <view class='icon my'>
+      <image src='../../image/icon-my.png' mode='widthFix' style='width:50rpx'></image>
+    </view>
+    <view class='icon book'>
+      <image src='../../image/icon-book.png' mode='widthFix' style='width:50rpx'></image>
+    </view>
+  </view>
+</view>
